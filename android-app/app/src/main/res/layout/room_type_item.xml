@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 🔥 ROOM IMAGE -->
+        <ImageView
+            android:id="@+id/imgRoom"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"/>
+
+        <!-- 🔥 DETAILS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tvRoomType"
+                android:text="Room Type"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:text="₹3000"
+                android:textColor="#4CAF50"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/tvAvailability"
+                android:text="Available: 5"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/btnBook"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Book Now"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

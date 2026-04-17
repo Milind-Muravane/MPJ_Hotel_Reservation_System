@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HotelReservationApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <style name="PebbleTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Black Calendar Theme with even Larger Fonts -->
+    <style name="BlackCalendarTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="android:textColorPrimaryInverse">#FFFFFF</item>
+        <item name="android:colorControlActivated">#000000</item>
+
+        <item name="android:dateTextAppearance">@style/CalendarDateTextAppearance</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarWeekDayTextAppearance</item>
+    </style>
+
+    <style name="CalendarDateTextAppearance">
+        <item name="android:textSize">20sp</item> <!-- Increased -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalendarWeekDayTextAppearance">
+        <item name="android:textSize">16sp</item> <!-- Increased -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
